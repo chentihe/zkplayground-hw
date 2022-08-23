@@ -31,4 +31,4 @@ to solve these questoins.
 
 which is for the design of whitelist mechanism
 
-Feel free to check the details, the writting language is Mandarin, but you can see the reference link for English version by others.
+Feel free to check the details, the writing language is Mandarin, but you can see the reference link for English version by others.
