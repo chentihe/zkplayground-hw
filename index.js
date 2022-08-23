@@ -7,16 +7,15 @@ const PRIVATE_KEY = "{YOUR_PRIVATE_KEY}";
 const ZK_ADDRESS = "0x847FB490b9255758738c1DBddD9E3049E9bC86c8";
 const ZK_PLAYGROUND =
   "0x760785a457f46af4582b62962c4d96be98c68df9619556fa20af3c286343bf81";
-  const ZK_LEAF = [
-    "0x760785a457f46af4582b62962c4d96be98c68df9619556fa20af3c286343bf81",
-    "0x2098ddd01d6035049de112333af26442bb3009ea06b6df66fccfadf8adee9914",
-    "0x4648dfc788d015b20cb30bd312820680fe7f126a5211202b924ea67fe8cc3cfe",
-    "0xb592fdc51ce49d7670e27b3a500873a78d0f29b39d1f368cf73e7b38a6c206d7",
-    "0xb3c8b2632ac575ad8f94d4adc98aeeba6f87ca0b01c85f2faac2271cf67787ca",
-    "0x395655712d1d58a4a7e3f01fd78482cba8477f8cfbf7a08202477c1baa15a335",
-    "0x777726d7bfa53f1c91ec1485ed098db792c3e326b98ece6bd9761a43315b7cf3",
-  ];
-
+const ZK_LEAF = [
+  "0x760785a457f46af4582b62962c4d96be98c68df9619556fa20af3c286343bf81",
+  "0x2098ddd01d6035049de112333af26442bb3009ea06b6df66fccfadf8adee9914",
+  "0x4648dfc788d015b20cb30bd312820680fe7f126a5211202b924ea67fe8cc3cfe",
+  "0xb592fdc51ce49d7670e27b3a500873a78d0f29b39d1f368cf73e7b38a6c206d7",
+  "0xb3c8b2632ac575ad8f94d4adc98aeeba6f87ca0b01c85f2faac2271cf67787ca",
+  "0x395655712d1d58a4a7e3f01fd78482cba8477f8cfbf7a08202477c1baa15a335",
+  "0x777726d7bfa53f1c91ec1485ed098db792c3e326b98ece6bd9761a43315b7cf3",
+];
 
 // ============================= ethers.js start =============================
 const ZK_ABI = [
@@ -60,8 +59,7 @@ console.log(result);
 // ============================= ethers.js end =============================
 
 // ============================= web3.js start =============================
-const GOERLI_APIKEY =
-  "https://eth-goerli.g.alchemy.com/v2/zwbegt4hOIB96KURkujUAVanT4W0T5hH";
+const GOERLI_APIKEY = "{YOUR_GOERLI_APIKEY}";
 
 const abi = [
   {
